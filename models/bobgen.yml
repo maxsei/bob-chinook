@@ -1,0 +1,13 @@
+sqlite:
+  dsn: "../Chinook_Sqlite.sqlite"
+# relationships:
+#   artist:
+#     - name: "artists_to_tracks_through_albums"
+#       sides:
+#         - from: "Artist"
+#           to: "Track"
+#           columns: [[TrackId, ArtistId]]
+#           to_where:
+#             - column: "verified"
+#               sql_value: "true"
+#               go_value: "true"
